@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div>
@@ -28,7 +28,9 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <button className="btn btn-outline-light">Add User</button>
+       <Link className="btn btn-outline-light" to="/adduser">
+            Add User
+          </Link>
       </nav>
     </div>
   );
