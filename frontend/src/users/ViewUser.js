@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function AddUser() {
+export default function ViewUser() {
   return (
     <div>
       

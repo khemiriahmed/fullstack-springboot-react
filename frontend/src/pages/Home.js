@@ -51,7 +51,7 @@ export default function Home() {
                   </Link>
                   <button
                     className="btn btn-danger mx-2"
-                    onClick={() => deleteUser(user.id)}
+                    // onClick={() => deleteUser(user.id)}
                   >
                     Delete
                   </button>
